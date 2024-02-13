@@ -1,0 +1,34 @@
+.login h2{
+    text-align:center;
+    font-weight: 650;
+}
+
+.register h2{
+    text-align:center;
+    font-weight: 650;
+}
+.register a{
+    font-weight: 650;
+    font-size:x-large;
+}
+
+.student h2{
+    text-align:right;
+    font-weight: 650;
+}
+
+.lecturer h2{
+    text-align:right;
+    font-weight: 650;
+}
+
+.company h2{
+    text-align:right;
+    font-weight: 650;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+      height: 100%;
+      }
+    }
