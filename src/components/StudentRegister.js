@@ -92,7 +92,7 @@ class CreateStudentComponent extends Component {
 
                     <div className="mb-3">
                         <label htmlFor="email">
-                            <strong>Student_Email</strong>
+                            <strong>Student Email</strong>
                         </label>
                         <input
                         type="text"
