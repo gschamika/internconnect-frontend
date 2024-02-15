@@ -78,7 +78,7 @@ class CreateStudentComponent extends Component {
 
                     <div className="mb-3">
                         <label htmlFor="nic">
-                            <strong>Student Name</strong>
+                            <strong>Student_Name</strong>
                         </label>
                         <input
                         type="text"
