@@ -78,7 +78,7 @@ class CreateLecturerComponent extends Component {
 
                         <div className="mb-3">
                             <label htmlFor="name">
-                                <strong>Lecturer Name</strong>
+                                <strong>Lecturer_Name</strong>
                             </label>
                             <input
                             type="text"
