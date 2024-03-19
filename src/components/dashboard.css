@@ -1,0 +1,109 @@
+button,
+input {
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+
+.mb-4{
+    background-color: #afafaf;
+}
+
+
+
+.nav-tabs {
+    border: 0;
+    padding: 15px 0.7rem;
+}
+
+.nav-tabs:not(.nav-tabs-neutral)>.nav-item>.nav-link.active {
+    box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card .nav-tabs {
+    border-top-right-radius: 0.1875rem;
+    border-top-left-radius: 0.1875rem;
+}
+
+.nav-tabs>.nav-item>.nav-link {
+    color: #000000;
+    margin: 0;
+    margin-right: 5px;
+    background-color: #afafaf;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 15px 23px;
+    line-height: 1.5;
+}
+
+.nav-tabs>.nav-item>.nav-link:hover {
+    background-color: rgb(251, 251, 251)
+}
+
+.nav-tabs>.nav-item>.nav-link.active {
+    background-color: #3669ea;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+.nav-tabs>.nav-item>.nav-link i.now-ui-icons {
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+    margin-right: 3px;
+}
+
+.nav-tabs.nav-tabs-neutral>.nav-item>.nav-link {
+    color: #FFFFFF;
+}
+
+.nav-tabs.nav-tabs-neutral>.nav-item>.nav-link.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+}
+
+.card {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-header {
+    background-color: transparent;
+    border-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+}
+
+
+
+
+@font-face {
+  font-family: 'Nucleo Outline';
+  src: url("https://github.com/creativetimofficial/now-ui-kit/blob/master/assets/fonts/nucleo-outline.eot");
+  src: url("https://github.com/creativetimofficial/now-ui-kit/blob/master/assets/fonts/nucleo-outline.eot") format("embedded-opentype");
+  src: url("https://raw.githack.com/creativetimofficial/now-ui-kit/master/assets/fonts/nucleo-outline.woff2");
+  font-weight: normal;
+  font-style: normal;
+        
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav-tabs {
+        display: inline-block;
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+    }
+
+    .nav-tabs .nav-item>.nav-link {
+        margin-bottom: 5px;
+    }
+}

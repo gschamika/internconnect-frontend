@@ -1,42 +1,57 @@
-import React from 'react'
-//import 'bootstrap-icons/font/bootstrap-icons.css';
+import React, { useState } from 'react';
+import {
+    FaBars,
+    FaClipboardCheck,
+    FaCity ,
+    FaFileAlt,
+    FaUser,
+}from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
 
-function StudentDashboard() {
-  return (
-    <div className='bg-white sidebar p-2'>        
-      <div className='m-2'>            
-        <i className='bi bi-bootstrap-fill me-3 fs-4'></i>  
-        <span className='brand-name fs-4'>Yousaf</span> 
-      </div>        
-	    <hr className='text-dark'/>       
-      <div className='list-group list-group-flush'>         
-        <a className='list-group-item py-2'>            
-          <i className='bi bi-speedometer2 fs-5 me-3'></i>   
-          <span >Dashboard</span>       
-        </a>         
-        <a className='list-group-item py-2 '>   
-          <i className='bi bi-house fs-5 me-3'></i>   
-          <span >Home</span>  
-        </a>      
-        <a className='list-group-item py-2'> 
-          <i className='bi bi-table fs-5 me-3'></i>  
-          <span >Products</span>          
-        </a>           
-        <a className='list-group-item py-2'>  
-          <i className='bi bi-clipboard-data fs-5 me-3'></i> 
-          <span >Report</span>      
-        </a>          
-        <a className='list-group-item py-2'>   
-          <i className='bi bi-people fs-5 me-3'></i> 
-          <span >Customers</span>        
-        </a>           
-        <a className='list-group-item py-2'>    
-          <i className='bi bi-power fs-5 me-3'></i> 
-          <span >Logout</span>     
-       </a>      
-      </div>    
-  </div>  
-  );
-}
 
-export default StudentDashboard
+const StudentDashboard = ({children}) => {
+
+    const menuItem=[
+        {
+            path:'/profile',
+            name:'Profile',
+            icon:<FaUser/>
+        },
+        {
+            path:'/template',
+            name:'CV Template',
+            icon:<FaFileAlt/>
+        },
+        {
+            path:'/vacancies',
+            name:'JOB Vacancies',
+            icon:<FaCity />
+        },
+        {
+            path:'/jobs',
+            name:'Selected Jobs',
+            icon:<FaClipboardCheck/>
+        },
+
+    ]
+    return (
+        <div className="container">
+           <div style={{width:  "320px"  , marginLeft:  "-120px" , height:  "380vh" , }} className="dashboard">
+               <div className="top_section">
+                   <h1  className="logo"> <center>Student Dashboard</center></h1>
+               </div>
+               {
+                   menuItem.map((item, index)=>(
+                       <NavLink to={item.path} key={index} className="link" activeclassName="active">
+                           <div className="icon">{item.icon}</div>
+                           <div  className="link_text">{item.name}</div>
+                       </NavLink>
+                   ))
+               }
+           </div>
+           <main>{children}</main>
+        </div>
+    );
+};
+
+export default StudentDashboard;

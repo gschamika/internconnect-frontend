@@ -8,36 +8,31 @@ import {
 import { NavLink } from 'react-router-dom';
 
 
-const CompanyDashboard = ({children}) => {
+const AdminDashboard = ({children}) => {
 
     const menuItem=[
         {
-            path:'/comprofile',
+            path:'/adminprofile',
             name:'Profile',
             icon:<FaUser/>
         },
         {
-            path:'/addvacancies',
-            name:'Add Vacancies',
+            path:'/manageusers',
+            name:'Manage Users',
             icon:<FaFileAlt/>
         },
         {
-            path:'/stdsearch',
-            name:'Search Student',
+            path:'/cvupload',
+            name:'Add CV Template',
             icon:<FaCity />
-        },
-        {
-            path:'/stdselection',
-            name:'Student Selection',
-            icon:<FaClipboardCheck/>
-        },
+        }
 
     ]
     return (
         <div className="container">
            <div style={{width:  "320px"  , marginLeft:  "-120px" , height:  "380vh" , }} className="dashboard">
                <div className="top_section">
-                   <h1  className="logo"> <center>Company Dashboard</center></h1>
+                   <h1  className="logo"> <center>Admin Dashboard</center></h1>
                </div>
                {
                    menuItem.map((item, index)=>(
@@ -53,4 +48,4 @@ const CompanyDashboard = ({children}) => {
     );
 };
 
-export default CompanyDashboard;
+export default AdminDashboard;

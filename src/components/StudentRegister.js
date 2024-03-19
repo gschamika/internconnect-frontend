@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import studentService from '../services/studentService';
+import StudentDashboard from './StudentDashboard';
 
 
 class CreateStudentComponent extends Component {
@@ -61,7 +62,10 @@ class CreateStudentComponent extends Component {
 
     render(){
         return(
-            <div className="d-flex justify-content-center align-items-center bg-white vh-250">
+            <div>
+                <div style={navbarStyel}> <h4>University of Sri Jayewardenepura</h4> </div>
+            
+            <div className="d-flex justify-content-center align-items-center bg-#afafaf vh-250">
             <div className="bg-white p-3 rounded w-25" >
                 <div className='student'>
                 <br></br><h2><center>Student Registration</center></h2> <br/> <br/>
@@ -178,16 +182,30 @@ class CreateStudentComponent extends Component {
                     </div>
                 </form>
                 <br/>
-                <button type="button" class="btn btn-primary w-100 rounded-0" onClick={this.saveStudent}>
+                <a href="./StdDashboard">
+                <button type="button" class="btn btn-primary w-100 rounded-0" onClick={this.saveStudent} style={{background: '#f8d43c', color: 'black',padding: '10px',border: 'none',borderRadius: '4px',cursor: 'pointer',}}>
                         Register
                     </button>
+                </a>
                 <br /><br />
                 <p><b>Already Have an Account <a href="./login"> Login</a></b></p>
 
                 </div>
             </div> 
         </div>
+        <div style={navbarStyel}>  </div>
+        </div>
         )
     }
 }
 export default CreateStudentComponent
+
+const navbarStyel = {
+    background: "#880404",
+    color: "#fff",
+    padding: '10px',
+    margin: '0px',
+    width: '100%',
+    height: '60px',
+    textAlign: 'center'
+  }
