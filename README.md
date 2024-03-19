@@ -3,9 +3,7 @@
 
 # Screenshots
 
-![Login](https://github.com/gschamika/internconnect-frontend/assets/97242725/05941c74-37f6-46c9-844e-68b1dad0c931)
-
-![Register](https://github.com/gschamika/internconnect-frontend/assets/97242725/c107ac14-55f0-4235-9cdf-78e49e5d3de2)
+![Login](https://github.com/gschamika/internconnect-frontend/assets/97242725/05941c74-37f6-46c9-844e-68b1dad0c931) ![Register](https://github.com/gschamika/internconnect-frontend/assets/97242725/c107ac14-55f0-4235-9cdf-78e49e5d3de2)
 
 ![Std_Registration](https://github.com/gschamika/internconnect-frontend/assets/97242725/c9420a4d-a9c9-43e1-b0f9-0018e78b4abf)
 
