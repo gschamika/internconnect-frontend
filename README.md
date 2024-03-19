@@ -1,23 +1,15 @@
 # InternConnect Pro - Online Internship Confirmation System
 
+# Project Screenshots
 
-# Screenshots
-
-![Login](https://github.com/gschamika/internconnect-frontend/assets/97242725/05941c74-37f6-46c9-844e-68b1dad0c931) ![Register](https://github.com/gschamika/internconnect-frontend/assets/97242725/c107ac14-55f0-4235-9cdf-78e49e5d3de2)
-
+![Login](https://github.com/gschamika/internconnect-frontend/assets/97242725/05941c74-37f6-46c9-844e-68b1dad0c931) 
+![Register](https://github.com/gschamika/internconnect-frontend/assets/97242725/c107ac14-55f0-4235-9cdf-78e49e5d3de2)
 ![Std_Registration](https://github.com/gschamika/internconnect-frontend/assets/97242725/c9420a4d-a9c9-43e1-b0f9-0018e78b4abf)
-
 ![Lec_Registration](https://github.com/gschamika/internconnect-frontend/assets/97242725/1cbbd875-176b-42e6-b1ec-5e446772276d)
-
 ![Com_Registration](https://github.com/gschamika/internconnect-frontend/assets/97242725/af702805-c1ba-42b8-b39d-26f4f7db6f67)
-
 ![Std_Dashboard](https://github.com/gschamika/internconnect-frontend/assets/97242725/5e1d6271-a6b1-4b5d-93f2-089a80fc2fd0)
-
 ![Lec_Dashboard](https://github.com/gschamika/internconnect-frontend/assets/97242725/5184d778-d529-4c54-a18a-ca68ef59a168)
-
 ![Com_Dashboard](https://github.com/gschamika/internconnect-frontend/assets/97242725/d7cfb428-9777-4f96-b031-3275a46f5d97)
-
-***
 
 # Getting Started with Create React App
 
